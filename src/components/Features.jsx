@@ -20,7 +20,7 @@ const Features = () => {
       </div>
      </div>
      <div>
-        <img src="./software-img.png" alt="" />
+        <img src="./software-img.png" className='px-4 md:px-20 lg:px-10' alt="" />
      </div>
     </div>
 
@@ -44,7 +44,7 @@ const Features = () => {
       </div>
      </div>
      <div className='mb-6 '>
-        <img src="./software-img.png" alt="" />
+        <img src="./software-img.png" className='px-4 md:px-20 lg:px-10' alt="" />
      </div>
     </div>
     </div>

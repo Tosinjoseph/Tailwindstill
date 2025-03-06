@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
   return (
-    <div className='justify-center items-center mx-auto px-4 md:px-16 lg:px-28' id='Pricing'>
+    <div className='justify-center bg-gray-100 items-center py-4 mx-auto px-4 md:px-14 lg:px-25' id='Pricing'>
         <h1 className='text-xl lg:text-3xl font-bold w-full mx-auto text-center'>OUR PRICING</h1>
         <div className='flex-col gap-8 md:flex-row lg:flex '>
         <div className='mt-20 mb-10 py-4 shadow-2xl  w-1/2 md:w-1/3 lg:w-1/3  mx-auto justify-center items-center'>
@@ -17,7 +17,7 @@ const Pricing = () => {
                 <h3 className='mb-6'>60 MORE THEMES</h3>
                 <span className='mb-6 block'>LIFETIME SUPPORT</span>
                 <button className="border hover:text-white hover:bg-blue-700
-                 cursor-pointer text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
+                 cursor-pointer ease-in-out duration-1000 justify-center items-center mx-auto text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
             </div>
         </div>
         <div className='mt-15 mb-15 py-4 shadow-2xl  w-1/2 md:w-1/3 lg:w-1/3  mx-auto justify-center items-center'>
@@ -32,7 +32,7 @@ const Pricing = () => {
                 <h3 className='mb-6'>60 MORE THEMES</h3>
                 <span className='mb-6 block'>LIFETIME SUPPORT</span>
                 <button className="border hover:text-white hover:bg-blue-700
-                 cursor-pointer text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
+                 cursor-pointer ease-in-out duration-1000 text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
             </div>
         </div>
         <div className='mt-20 mb-10 py-4 shadow-2xl w-1/2 md:w-1/3 lg:w-1/3 mx-auto justify-center items-center'>
@@ -47,7 +47,7 @@ const Pricing = () => {
                 <h3 className='mb-6'>60 MORE THEMES</h3>
                 <span className='mb-6 block'>LIFETIME SUPPORT</span>
                 <button className="border hover:text-white hover:bg-blue-700
-                 cursor-pointer text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
+                 cursor-pointer ease-in-out duration-1000 text-blue-700 border-blue-700 rounded bg-white px-8 py-1" type='submit'>SIGN UP</button>
             </div>
         </div>
 

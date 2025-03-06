@@ -3,6 +3,9 @@ import Hero from './components/Hero.jsx'
 import Subhero from './components/Subhero.jsx'
 import Features from './components/Features.jsx'
 import Pricing from './components/Pricing.jsx'
+import Download from './components/Download.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
 
 
 const App = () => {
@@ -12,6 +15,9 @@ const App = () => {
       <Subhero/>
       <Features/>
       <Pricing/>
+      <Download/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }
