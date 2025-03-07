@@ -12,11 +12,11 @@ const Navbar = () => {
      flex justify-between items-center mx-auto bg-white fixed'>
         <span className='text-blue-700 font-bold text-2xl'>D-Answer</span>
         <ul className='md:flex  gap-4 hidden  text-sm'>
-          <a className="hover:text-blue-700  text-sm" href='#Home' >HOME</a>
-          <a className="hover:text-blue-700  text-sm" href='#Feature' >FEATURES</a>
-          <a className="hover:text-blue-700  text-sm" href='#Pricing' >PRICING</a>
-          <a className="hover:text-blue-700  text-sm" href='#Download' >DOWNLOAD</a>
-          <a className="hover:text-blue-700  text-sm" href='#Contact'>CONTACT</a>
+          <a className="hover:text-blue-700 hover:font-bold  text-sm" href='#Home' >HOME</a>
+          <a className="hover:text-blue-700 hover:font-bold text-sm" href='#Feature' >FEATURES</a>
+          <a className="hover:text-blue-700 hover:font-bold text-sm" href='#Pricing' >PRICING</a>
+          <a className="hover:text-blue-700 hover:font-bold text-sm" href='#Download' >DOWNLOAD</a>
+          <a className="hover:text-blue-700 hover:font-bold text-sm" href='#Contact'>CONTACT</a>
         </ul>
        
         <img onClick={()=>setShowMobileMenu(true)} src="./menu_icon.svg" className='z-25 cursor-pointer w-8  md:hidden filter invert' alt="" />  

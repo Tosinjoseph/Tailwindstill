@@ -16,9 +16,9 @@ const Hero = () => {
     className='container mx-auto px-4 md:px-20 lg:px-32 relative justify-center items-center mt-50 '>
       <h1 className='text-2xl text-center  text-white font-bold md:text-4xl lg:text-5xl'>Software Landing Page</h1>
       <p className='text-center  mx-auto mt-10 text-white'>Boxer is a fully responsive , clean design, Modern, and Flexible Software Landing Page for startups, business and agencies.
-        It is built with HTML5, TailwindCSS4.0, Font Outfit and much more,Designed by Dee Answer.Images by Pixabay
+        It is built with HTML5, TailwindCSS4.0, Font Outfit and much more. Designed by<span className='text-blue-700'> Tosin Joseph</span> .Images by Pixabay
       </p>
-      <img src="./software-img.png" className='py-10 px-4 md:px-20 lg:px-20' alt="" />
+      <img src="./software-img.png" className='py-10 px-4 md:px-20 lg:px-20 mx-auto' alt="" />
      </motion.div>
      
     </div>
