@@ -1,7 +1,11 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Navbar = () => {
   const[showMobileMenu, setShowMobileMenu] = useState(false)
+
+  useEffect(()=>{
+    
+  },[])
   return (
   <div className='top-0 left-0  right-0 absolute z-10 w-full '>
     <div className=' right-0 w-full px-6 md:px-20 lg:px-28 py-4

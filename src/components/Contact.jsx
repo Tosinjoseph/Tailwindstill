@@ -17,10 +17,10 @@ const Contact = () => {
              <p className='mb-5'>tosinjosephoffice2@gmail.com</p>
         </div>
         <div className=''>
-            <div className='flex flex-wrap justify-center gap-6 items-center mx-auto'><input placeholder='Name'  className='bg-white w-50 h-12  text-black ' type="text" /><span><input placeholder='Email' className='bg-white  text-black w-50 h-12' type="email" /></span></div>
-            <input type="text" placeholder='Subject' className='bg-white w-full justify-start  text-black mt-6 h-12'/>
-            <textarea placeholder='Message' className='bg-white mt-6 w-full h-30 text-black' name="message" id=""></textarea>
-            <button type='submit' className='justify-start border border-blue-700 rounded
+            <div className='flex flex-wrap justify-center gap-6 items-center mx-auto'><input placeholder='Name'  className='bg-white px-2 rounded w-50 h-12  text-black ' type="text" /><span><input placeholder='Email' className='bg-white rounded px-2 text-black w-50 h-12' type="email" /></span></div>
+            <input type="text" placeholder='Subject' className='bg-white rounded w-full justify-start px-2 text-black mt-6 h-12'/>
+            <textarea placeholder='Message' className='bg-white px-2 rounded mt-6 w-full h-30 text-black' name="message" id=""></textarea>
+            <button type='submit' className='justify-start border border-blue-700 rounded px-2
             ease-in-out duration-1000 hover:bg-white hover:text-black cursor-pointer bg-blue-700 py-2 px-10 mt-4'>SUBMIT</button>
         </div>
         

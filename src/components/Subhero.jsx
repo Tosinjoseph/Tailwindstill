@@ -1,8 +1,14 @@
 import React from 'react'
+import {motion} from 'framer-motion'
 
 const Subhero = () => {
   return (
-    <div className='w-full  justify-center items-center'>
+    <motion.div
+    initial={{ opacity: 0, x: 100 }} 
+    whileInView={{ opacity: 1, x: 0 }} 
+    viewport={{ once: true }} 
+    transition={{ duration: 1, ease: "easeOut" }}
+    className='w-full  justify-center items-center'>
       <div className='flex-col md:flex lg:flex-row w-full px-4 md:px-20 lg:px-32 mx-auto py-10 gap-6 justify-center items-center'>
        <div className=' justify-center  items-center text-center'>
         <img className="w-16 h-16 mx-auto mb-4 fill-blue-500" src="./lap-blue.png"  alt="" />
@@ -26,7 +32,7 @@ const Subhero = () => {
              aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
        </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
